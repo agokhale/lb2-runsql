@@ -9,11 +9,11 @@ use this like:
   
 XXXX this is a terrible idea; don't use it
 */
-exports.run = function (modelclass,  sqlquery ) { 
+exports.run = function (model,  sqlquery ) { 
   return new Promise ( async function ( resolve, reject)  {
     //experience the calm rational sytanx of async 
     try {
-      const connec = hra_statement.dataSource.connector;
+      const connec = model.dataSource.connector;
       connec.execute  ( sqlquery, [],  (err, res) =>  { 
         if  ( err)  {
           console.error(err, err.stack, query); 
@@ -24,7 +24,7 @@ exports.run = function (modelclass,  sqlquery ) {
         }
       }); 
     } catch (err) { 
-      console.erro(err,  err.stack);
+      console.error(err,  err.stack);
     }
   });
 };
