@@ -1,0 +1,16 @@
+{
+  "name": "lb2-runsql",
+  "version": "0.0.0",
+  "author": "ash <ashfixit@gmail.com",
+  "description": "run sql directly on loopback2 sql backed datasources",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/agokhale/lb2-runsql.git"
+  },
+  "keywords": [
+    "zip",
+    "deflate",
+    "inflate"
+  ],
+  "license": "BSD 2-Clause"
+}

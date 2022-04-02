@@ -1,0 +1,16 @@
+{
+  "name": "lb2-runsql",
+  "repo": "agokhale/lb-runsql",
+  "description": "bypass loopback2 orm and run sql directly ",
+  "version": "0.0.1",
+  "keywords": [
+    "orm",
+    "sql",
+    "loopback2"
+  ],
+  "main": "runsql.js",
+  "license": "BSD",
+  "scripts": [
+    "runsql.js"
+  ]
+}
