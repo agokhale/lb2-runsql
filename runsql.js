@@ -16,15 +16,15 @@ exports.run = function (model,  sqlquery ) {
       const connec = model.dataSource.connector;
       connec.execute  ( sqlquery, [],  (err, res) =>  { 
         if  ( err)  {
-          console.error(err, err.stack, query); 
-          reject( res); 
+          console.error(err, err.stack, sqlquery); 
+          reject( res ); 
         }
         else {
           resolve( res ); 
         }
       }); 
     } catch (err) { 
-      console.error(err,  err.stack);
+      console.error(err,  err.stack, sqlquery);
     }
   });
 };

@@ -1,16 +1,24 @@
 {
   "name": "lb2-runsql",
-  "version": "0.0.0",
-  "author": "ash <ashfixit@gmail.com",
+  "version": "0.0.1",
+  "author": "ash",
   "description": "run sql directly on loopback2 sql backed datasources",
   "repository": {
     "type": "git",
-    "url": "https://github.com/agokhale/lb2-runsql.git"
+    "url": "git+https://github.com/agokhale/lb2-runsql.git"
   },
   "keywords": [
-    "zip",
-    "deflate",
-    "inflate"
+    "loopback2",
+    "sql",
+    "terrible-idea"
   ],
-  "license": "BSD 2-Clause"
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/agokhale/lb2-runsql/issues"
+  },
+  "homepage": "https://github.com/agokhale/lb2-runsql#readme",
+  "main": "runsql.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }
