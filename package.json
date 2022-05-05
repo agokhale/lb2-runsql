@@ -1,6 +1,6 @@
 {
   "name": "lb2-runsql",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "ash",
   "description": "run sql directly on loopback2 sql backed datasources",
   "repository": {
